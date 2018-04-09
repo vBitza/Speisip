@@ -1,0 +1,23 @@
+﻿Build started 09-Apr-18 1:12:03 PM.
+     1>Project "C:\Users\vBitza\Desktop\Spacecraft\Spacecraft\Spacecraft.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\gabi\FreeGlut\glew-1.11.0\include" /IC:\gabi\FreeGlut\freeglut\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Global.cpp
+         Global.cpp
+     1>c:\users\vbitza\desktop\spacecraft\spacecraft\spaceship.h(8): warning C4091: 'static ' : ignored on left of 'Body' when no variable is declared
+     1>c:\users\vbitza\desktop\spacecraft\spacecraft\spaceship.h(13): warning C4091: 'static ' : ignored on left of 'Wings' when no variable is declared
+     1>c:\users\vbitza\desktop\spacecraft\spacecraft\spaceship.h(18): warning C4091: 'static ' : ignored on left of 'Cockpit' when no variable is declared
+     1>c:\users\vbitza\desktop\spacecraft\spacecraft\spaceship.h(23): warning C4091: 'static ' : ignored on left of 'MisslesLauncher' when no variable is declared
+     1>c:\users\vbitza\desktop\spacecraft\spacecraft\spaceship.h(34): warning C4091: 'static ' : ignored on left of 'Spaceship' when no variable is declared
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\vBitza\Desktop\Spacecraft\Debug\Spacecraft.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\gabi\FreeGlut\glew-1.11.0\lib" /LIBPATH:C:\gabi\FreeGlut\freeglut\lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\vBitza\Desktop\Spacecraft\Debug\Spacecraft.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\vBitza\Desktop\Spacecraft\Debug\Spacecraft.lib" /MACHINE:X86 Debug\Draw.obj
+         Debug\Engine.obj
+         Debug\Global.obj
+         Debug\Source.obj
+         Debug\Keyboard.obj
+         Debug\Spaceship.obj
+         Spacecraft.vcxproj -> C:\Users\vBitza\Desktop\Spacecraft\Debug\Spacecraft.exe
+     1>Done Building Project "C:\Users\vBitza\Desktop\Spacecraft\Spacecraft\Spacecraft.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.87
